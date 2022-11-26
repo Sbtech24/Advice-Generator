@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Roboto&display=swap');
+@import '_config';
+@import '_button';
+
+
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: $DarkBlue;
+    font-family: "Manrope", sans-serif; ;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - .1px);
+
+    div{
+        background-color: $DarkGrayishBlue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        padding:35px;
+        min-height:150px;
+        border-radius: 1.5em;
+    }
+    #advice{
+        font-weight: 800;
+        font-size: 28px;
+        width: 350px;
+        margin-top: -5px;
+        color: hsl(193, 38%, 86%);
+    }
+    #adviceId{
+        color: hsl(150, 100%, 66%);
+        font-weight: 300;
+        word-spacing: 5px;
+    }
+    #lineimage{
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+}
