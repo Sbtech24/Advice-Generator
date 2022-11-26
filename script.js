@@ -22,7 +22,7 @@ function fetchData(){
 }   
 
 
-setInterval(fetchQuote,1);
+
 
 function Refresh(){
     fetchData()
