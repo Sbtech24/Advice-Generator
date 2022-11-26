@@ -1,7 +1,4 @@
 
-function Refresh(){
-    fetchData()
-}
 
 function fetchData(){
    fetch('https://api.adviceslip.com/advice')
@@ -26,3 +23,7 @@ function fetchData(){
 
 
 setInterval(fetchQuote,1);
+
+function Refresh(){
+    fetchData()
+}
